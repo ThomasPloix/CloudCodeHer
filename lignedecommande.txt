@@ -1,0 +1,5 @@
+sudo dpkg --configure -a && sudo apt update -y && sudo apt install -y docker.io && sudo docker pull uzyexe/tetris && sudo docker run uzyexe/tetris&&
+
+
+
+sudo dpkg --configure -a && sudo apt update -y && sudo apt install -y docker.io && sudo docker pull uzyexe/tetris && sudo docker run -d -p 8080:80 --name tetris uzyexe/tetris && sudo docker ps
